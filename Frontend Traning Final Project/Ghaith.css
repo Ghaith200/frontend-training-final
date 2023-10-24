@@ -1,0 +1,144 @@
+
+* {
+    box-sizing: border-box;
+    list-style: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    font-style: inherit;
+    text-decoration: inherit;
+    text-decoration-line: inherit;
+}
+
+header{
+    width: 100%;
+    position: sticky;
+}
+
+.fa-regular,.fa-solid{
+    font-size: 23px;
+}
+
+
+.nav-item a{
+    color: #000000;
+}
+
+.nav-item a:hover{
+    color: #008000;
+    border-bottom: 1px solid green;
+}
+
+.banner{
+    position: relative;
+}
+
+.banner-txt{
+    position: absolute;
+    top: 33vh;
+    left: 22vh;
+    z-index: 99999999999;
+}
+
+.shop-btn{
+    padding: 9px 30px;
+    background: #000;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all ease-in-out 300ms;
+}
+
+.shop-btn:hover{
+    background: #008000;
+}
+
+
+.carousel-indicators button{
+    height: 50px;
+    width: 50px;
+}
+
+/* 
+.navbar .container-1{
+    width: 95%;
+    padding: 25px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+}
+
+.nav-left ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo img{
+    width: 180px;
+}
+.nav-left{
+    gap: 25px;  
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+
+}
+
+.nav-left li a {
+    text-decoration: none;
+    color:#000000;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.nav-left li a:hover{
+    color: #008000;
+}
+
+.nav-left li a::after{
+    text-decoration: underline;
+    color: #008000;
+}
+
+.nav-right{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.fa-regular,.fa-solid{
+    font-size: 23px;
+}
+
+.btn{
+    width: fit-content;
+    height: fit-content;
+}
+
+.slider button{
+    color: red;
+}
+
+.banner-txt{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.nav-right{
+    gap: 5px;
+} */
